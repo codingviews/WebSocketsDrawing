@@ -1,0 +1,30 @@
+{
+  "name": "websocketsdrawing",
+  "version": "1.0.0",
+  "description": "Drawing application using web sockets and p5.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingviews/WebSocketsDrawing.git"
+  },
+  "keywords": [
+    "sockets.io",
+    "p5.js",
+    "express",
+    "node"
+  ],
+  "author": "Jimmy S. Emmanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingviews/WebSocketsDrawing/issues"
+  },
+  "homepage": "https://github.com/codingviews/WebSocketsDrawing#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
